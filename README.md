@@ -15,7 +15,10 @@ interactive R input box may look:
 
 Usage
 ------------
-Download the repository, open the project in RStudio and hit the 'Run
+Download the repository, open the `ìnteractiveRslides.Rmd` in RStudio and hit the 'Run
 Presentation' button.
 
 ![](img/screen1.png)
+
+Then, go to slide 3 and enter some R code into the textbox. If all goes
+well, the return value of the evaluated expression will be output to the slide.
