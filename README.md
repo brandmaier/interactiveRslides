@@ -10,6 +10,7 @@ presentations, in which we can online evaluate R code. This seems
 particularly useful for teaching because there is no need to switch to an R
 interpreter during a presentation. Here is how your presentation with an
 interactive R input box may look:
+
 ![](img/screen2.png)
 
 Usage
