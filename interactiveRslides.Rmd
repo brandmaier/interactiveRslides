@@ -1,0 +1,47 @@
+---
+title: "interactiveRslides"
+author: "Brandmaier"
+date: "9/11/2019"
+output: ioslides_presentation
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Shiny Presentation
+
+This R Markdown presentation is made interactive using Shiny. 
+
+## Interactive R Code
+
+```{r interactiveR}
+
+  fluidPage(
+    textInput("caption", "R Expression", ""),
+    verbatimTextOutput("value")
+  )
+
+
+renderPlot({
+  output$value <- renderText({
+    eval(parse(text=input$caption))
+  })
+})
+```
+
+## Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## R Output
+
+```{r cars}
+set.seed(123)
+plot(rnorm(100))
+```
+
+
