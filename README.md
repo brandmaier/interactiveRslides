@@ -4,11 +4,11 @@ IOSlides + Shiny = interactive R code in presentations
 What is this?
 -------------
 
-Here is a little demo that show how with only few lines of code we can
-combine the IOSlides presentation framework and Shiny to create
-presentations, in which we can online evaluate R code. This seems
-particularly useful for teaching because there is no need to switch to an R
-interpreter during a presentation. Here is how your presentation with an
+Here is a little demo that demonstrates how -- with only few lines of code
+-- we can combine the IOSlides presentation framework and Shiny to create
+presentations, in R code can be entered and evaluated in your presentation
+slides. This seems particularly useful for teaching because there is no need to switch to an
+ R session during a presentation. Here is how your presentation with an
 interactive R input box may look:
 
 ![](img/screen2.png)
